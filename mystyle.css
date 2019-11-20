@@ -1,6 +1,6 @@
 body{
-    background: url("https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1362&q=80");
-    background-repeat: no-repeat;    
+    background-image: url("https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1362&q=80");
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,12 +33,13 @@ div{
     color: blue;
     grid-column: 1 / span 2;
 }
-/* .navigation{    
+.navigation{    
+    justify-content: left;
     text-align: left;
     margin-right: 50px;
     color: green;
 
-} */
+}
 .About_Me{
     background: #eaeaea;
     display: flex;
