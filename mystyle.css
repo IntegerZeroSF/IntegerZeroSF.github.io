@@ -38,12 +38,28 @@ article {
 }
 .pHeader, .pAboutMe{
     float: right;
+}
+.pHeader{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.pAboutMe{
+    font-family: fantasy;
+    font-size: medium;
+    line-height: 2em;
+}
+ul{
+    text-align: center;
+    vertical-align: middle;
 
 }
 .Selfie{
     height: 600px;
     width: 400x;
     float: left;
+    border: lightyellow;
+    margin: 1.5em;
 }
 .pCopyright {
     text-align: center;
