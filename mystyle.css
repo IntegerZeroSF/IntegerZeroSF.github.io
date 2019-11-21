@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     flex-direction: row;
     margin: 0;
+    font-family:;
   }
 .nav-left {
     background: lightslategray;
@@ -37,6 +38,12 @@ article {
 }
 .pHeader, .pAboutMe{
     float: right;
+
+}
+.Selfie{
+    height: 600px;
+    width: 400x;
+    float: left;
 }
 .pCopyright {
     text-align: center;
