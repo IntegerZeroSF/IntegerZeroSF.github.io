@@ -1,5 +1,15 @@
 .body {
+    text-align: right;
+    padding: 2vh;
     color: black;
     align-items: center;
     background-color: whitesmoke;
+}
+
+.selfie {
+    width: 30%;
+    float: left;
+    border-radius: 1vh;
+    margin: 1vh;
+    box-shadow: 4px 4px 5px #aaa;
 }

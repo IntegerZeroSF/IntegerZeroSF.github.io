@@ -7,6 +7,7 @@ import Home from './Home/Home.js';
 import Projects from './Projects/Projects.js';
 import ContactMe  from './ContactMe/ContactMe.js';
 
+
 //want scroll functionality maybe
 
 function App() {
@@ -14,12 +15,12 @@ function App() {
     <div className='flexContainer'>
       <Router>
         <header className='header'>
-          <h1>Hello World. Welcome to Ray's new and improved portfolio.</h1>
+          <h1 className='landingTitle'> Welcome to Ray's new and improved portfolio.</h1>
             <nav className='navigation'>
-               <Link to="/Home"> Home </Link>||  
-               <Link to="/AboutMe"> About Me </Link>||
-               <Link to="/Projects"> Projects </Link>||
-               <Link to="/ContactMe"> Contact Me </Link> 
+              <Link to="/Home" className="link"><span className="navButton"> Home </span></Link>
+              <Link to="/AboutMe" className="link"><span className="navButton"> About Me </span></Link>
+              <Link to="/Projects" className="link"><span className="navButton"> Projects </span></Link>
+              <Link to="/ContactMe" className="link"><span className="navButton"> Contact Me </span></Link>
             </nav>
         </header>
 
