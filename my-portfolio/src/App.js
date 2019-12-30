@@ -15,7 +15,8 @@ function App() {
     <div className='flexContainer'>
       <Router>
         <header className='header'>
-          <h1 className='landingTitle'> Welcome to Ray's new and improved portfolio.</h1>
+          {/* <img src='' alt=''>Cool Blacked Out Image Here</img> */}
+          <h1 className='landingTitle'> Welcome to Ray's new and improved portfolio</h1>
             <nav className='navigation'>
               <Link to="/Home" className="link"><span className="navButton"> Home </span></Link>
               <Link to="/AboutMe" className="link"><span className="navButton"> About Me </span></Link>
