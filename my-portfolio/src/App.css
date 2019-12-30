@@ -4,7 +4,7 @@
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   text-align: right;
@@ -16,9 +16,6 @@
   padding: 1rem;
 }
 
-.aboutMe {
-  position: relative;
-}
 
 .footer {
   position: fixed;
